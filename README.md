@@ -1,4 +1,4 @@
-# radixutil
+# radixutil [![GoDoc](https://godoc.org/github.com/nussjustin/radixutil?status.svg)](https://godoc.org/github.com/nussjustin/radixutil) [![Build Status](https://travis-ci.org/nussjustin/radixutil.svg?branch=master)](https://travis-ci.org/nussjustin/radixutil) [![Go Report Card](https://goreportcard.com/badge/github.com/nussjustin/radixutil)](https://goreportcard.com/report/github.com/nussjustin/radixutil)
 
 A collection of utilities for working with [radix](https://github.com/mediocregopher/radix).
 
