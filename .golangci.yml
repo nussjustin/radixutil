@@ -1,0 +1,5 @@
+linters:
+  enable-all: true
+run:
+  skip-files:
+    - _test.go$
