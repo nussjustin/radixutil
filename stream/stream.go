@@ -52,7 +52,7 @@ func (pm *PendingMessage) UnmarshalRESP(br *bufio.Reader) error {
 		&pm.DeliveryCount)
 }
 
-// PendingMessage contains information about multiple pending messages as returned by the extended form of XPENDING.
+// PendingMessages contains information about multiple pending messages as returned by the extended form of XPENDING.
 type PendingMessages []PendingMessage
 
 // ByConsumer returns a map of PendingMessage's grouped by Consumer.
@@ -64,7 +64,7 @@ func (pms PendingMessages) ByConsumer() map[string]PendingMessages {
 	return m
 }
 
-// PendingMessage contains information about pending consumers and messages as returned by the simple form of XPENDING.
+// PendingSummary contains information about pending consumers and messages as returned by the simple form of XPENDING.
 type PendingSummary struct {
 	Pending           int
 	SmallestPendingID radix.StreamEntryID
